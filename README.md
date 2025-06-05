@@ -237,9 +237,6 @@ agents["new_agent"] = client.agents.create(
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🆘 Support
 
@@ -258,5 +255,14 @@ If you encounter issues:
 - **Claude AI** for powering the food recommendations
 
 ---
+## Output Images
+![Alt text](https://github.com/ratnesh134/Multi-Agent-Food-Tour-Julep/blob/master/images/Screenshot%20from%202025-06-05%2015-35-06.png)
+![Alt text](https://github.com/ratnesh134/Multi-Agent-Food-Tour-Julep/blob/master/images/Screenshot%20from%202025-06-05%2015-35-18.png)
+![Alt text](https://github.com/ratnesh134/Multi-Agent-Food-Tour-Julep/blob/master/images/Screenshot%20from%202025-06-05%2015-35-28-1.png)
+![Alt text](https://github.com/ratnesh134/Multi-Agent-Food-Tour-Julep/blob/master/images/Screenshot%20from%202025-06-05%2015-35-28.png)
+![Alt text](https://github.com/ratnesh134/Multi-Agent-Food-Tour-Julep/blob/master/images/Screenshot%20from%202025-06-05%2015-35-35-1.png)
+
+
+
 
 **Made with ❤️ for food lovers and weather enthusiasts!** 🍜🌤️
