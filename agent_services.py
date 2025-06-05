@@ -2,7 +2,7 @@ from julep import Julep
 import streamlit as st
 from utils import clean_response_text
 
-class Agent_Services:
+class AgentServices:
     def __init__(self, api_key):
         self.api_key = api_key
         self.client = None

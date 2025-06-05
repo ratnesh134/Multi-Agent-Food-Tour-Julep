@@ -2,7 +2,7 @@ import streamlit as st
 import os
 from dotenv import load_dotenv
 from weather_service import WeatherService
-from julep_service import JulepService
+from agent_services import AgentServices
 from utils import (
     load_css, get_weather_emoji, format_time, 
     validate_api_key, create_download_content,
@@ -98,7 +98,7 @@ def initialize_services():
         st.session_state.weather_service = WeatherService(weather_key)
         
         # Julep service
-        julep_service = JulepService(julep_key)
+        julep_service = AgentServices(julep_key)
         if julep_service.initialize_client() and julep_service.create_agents():
             st.session_state.julep_service = julep_service
             return True
