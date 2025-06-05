@@ -43,7 +43,6 @@ foodie-tour-app/
 ├── templates.html        # HTML templates
 ├── test_weather_api.py   # API testing script
 ├── .env                  # Environment variables (create this)
-├── .env.example          # Example environment file
 ├── requirements.txt      # Dependencies
 └── README.md            # This file
 ```
