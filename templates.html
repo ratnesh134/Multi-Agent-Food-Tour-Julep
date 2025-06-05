@@ -1,0 +1,79 @@
+<!-- Weather Card Template -->
+<div class="weather-card fade-in">
+    <h2>{weather_emoji} {city}, {country}</h2>
+    <h1>{temperature}°C</h1>
+    <h3>{description}</h3>
+    <div class="weather-stats">
+        <div class="weather-stat">
+            <strong>Feels Like:</strong><br>{feels_like}°C
+        </div>
+        <div class="weather-stat">
+            <strong>Humidity:</strong><br>{humidity}%
+        </div>
+        <div class="weather-stat">
+            <strong>Wind:</strong><br>{wind_speed} m/s
+        </div>
+        <div class="weather-stat">
+            <strong>Rain Chance:</strong><br>{rain_probability}%
+        </div>
+    </div>
+    <div style="margin-top: 1rem;">
+        <span class="time-badge">🌅 Sunrise: {sunrise}</span>
+        <span class="time-badge">🌇 Sunset: {sunset}</span>
+    </div>
+</div>
+
+<!-- City Processing Card Template -->
+<div class="city-card slide-in">
+    <h3>🌆 Creating tour for {city}...</h3>
+    <div class="loading-spinner"></div>
+</div>
+
+<!-- Highlight Text Template -->
+<div class="highlight-text fade-in">
+    {dining_recommendation}
+</div>
+
+<!-- Content Section Template -->
+<div class="content-section fade-in">
+    <h3>{section_title}</h3>
+    <div>{content}</div>
+</div>
+
+<!-- Dish Card Template -->
+<div class="dish-card fade-in">
+    <h3>🍜 {title}</h3>
+    <div>{content}</div>
+</div>
+
+<!-- Restaurant Card Template -->
+<div class="restaurant-card fade-in">
+    <h3>🏨 {title}</h3>
+    <div>{content}</div>
+</div>
+
+<!-- Tour Timeline Template -->
+<div class="tour-timeline fade-in">
+    <h3>📖 {title}</h3>
+    <div>{content}</div>
+</div>
+
+<!-- Error Message Template -->
+<div class="error-message">
+    <strong>❌ Error:</strong> {error_message}
+</div>
+
+<!-- Success Message Template -->
+<div class="success-message">
+    <strong>✅ Success:</strong> {success_message}
+</div>
+
+<!-- Warning Message Template -->
+<div class="warning-message">
+    <strong>⚠️ Warning:</strong> {warning_message}
+</div>
+
+<!-- Sidebar Header Template -->
+<div class="sidebar-header">
+    <h3>{header_title}</h3>
+</div>
